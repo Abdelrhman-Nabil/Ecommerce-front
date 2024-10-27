@@ -1,0 +1,135 @@
+.plan-View{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 712px;}
+nav{
+    width: 15%;
+    background-color: rgba(161, 161, 161, 0.466);
+    z-index: 10;
+    height: 100%;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    position: relative;
+    right: 40px;
+    top: -53px;
+
+}
+
+nav ul li {
+    width: 100%;
+    position: relative;
+    left: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+nav ul li a :active,
+nav ul li a:focus {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2.5px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 101%;
+    font-size: 20px;
+}
+
+nav ul li a svg {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul li p {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: cell;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+@media screen and (max-width:870px) {
+    .plan-view{
+        background-color: blue;
+        color: rgb(255, 255, 255);
+    }
+    nav {
+        display: flex;
+        position: absolute;
+        width: 30%;
+        height: 765px;
+
+    }
+
+    .span-header {
+        display: flex;
+        font-size: 12px;
+        font-weight: 600;
+        position: relative;
+        left: -4px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: start;
+        width: 143%;
+        top: -66px;
+    }
+      nav ul li{
+        margin: 10px;
+      }
+    nav ul li a {
+        margin: 0;
+        font-size: 15px;
+        width: 90px;
+    }
+
+    nav ul li a :active{
+        width: 50%;
+        border: 1px solid black;
+        border-radius: 2.5px;
+        background-color: rgb(109, 19, 19);
+
+    }
+    nav ul li a:focus {
+        width: 50%;
+        border: 1px solid black;
+        border-radius: 2.5px;
+        background-color: rgb(211, 211, 211);
+
+    }
+    nav ul li a:hover{
+        width: 70%;
+    }
+    nav ul li p {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+        cursor: cell;
+        width: 70%;
+        border-bottom:3px solid black;
+        font-size: 15px;
+    
+    
+    }
+}

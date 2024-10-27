@@ -1,0 +1,59 @@
+.addProduct-page{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.addProduct-page h1{
+    color: black;
+    position: absolute;
+    left: 150px;    
+    top: 0px;
+}
+.add-product-data{
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 5px 5px 0px black;
+    left: 150px;
+    top: 100px;
+    height: 600px;
+    width: 70%;
+    overflow-y: scroll;;
+}
+.add-product-data-formData{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+.add-product-data-formData form{
+    position: absolute;
+    width: 80%;
+}
+.add-product-data button{
+    display: flex;
+    position: relative;
+    top: -10px;
+}
+
+@media screen and (max-width:820px) {
+    .add-product-data{
+        width: 50%;
+        left: 33%;
+        height: 483px;
+    }
+    .add-product-data-formData{
+        overflow: scroll;
+        width: 100%;
+    }
+    .add-product-data Input{
+        width: 70%;
+        position: relative;
+        left: 5%;
+    }
+    .addProduct-page h1{
+        
+        left: 150px;    
+    }
+}
